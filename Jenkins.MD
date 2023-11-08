@@ -1,4 +1,4 @@
-#First update the OS
+# First update the OS
 
 yum update -y
 
