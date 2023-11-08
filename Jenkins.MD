@@ -26,7 +26,7 @@ set the password
 # Jenkins installation
 To install jenkins search in google jenkins installation on linux and copy the commands
 ______________________________________________________________________________
-"sudo wget -O /etc/yum.repos.d/jenkins.repo \
+"sudo wget -O /etc/yum.repos.d/jenkins.repo \\
     https://pkg.jenkins.io/redhat-stable/jenkins.repo"
 
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
