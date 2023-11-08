@@ -2,7 +2,7 @@
 
 yum update -y
 
-#Allow passwordAuthentication and permitrootlogin to do that
+# Allow passwordAuthentication and permitrootlogin to do that
 
 Go to sshd_config file
 
@@ -12,18 +12,18 @@ set line number using :se nu
 
 uncomment permitrootlogin and change value to yes and give yes for password authentication
 
-#Restart and enable sshd
+# Restart and enable sshd
 
 systemctl restart sshd
 systemctl enable sshd
 
-#Change the password of root
+# Change the password of root
 
 passwd root
 
 set the password
 
-#Jenkins installation
+# Jenkins installation
 To install jenkins search in google jenkins installation on linux and copy the commands
 ______________________________________________________________________________
 sudo wget -O /etc/yum.repos.d/jenkins.repo \
@@ -50,7 +50,7 @@ sudo systemctl start jenkins
 sudo systemctl status jenkins
 
 ______________________________________________________________________________
-#Accessing jenkins Dashboard
+# Accessing jenkins Dashboard
 Copy the public ip of server and append :8080 to access jenkins dashboard
 
 copy the path given on dashboard and give the path in server
@@ -62,7 +62,7 @@ copy the key and give it in the dashboard
 install suggested plugins
 And create user or you can continue as admin
 
-#Optional
+# Optional
 
 To integrate git, install git
 
